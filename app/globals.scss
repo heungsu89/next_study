@@ -1,0 +1,29 @@
+*{margin:0;padding:0;font-size:100%;color:#000;box-sizing:border-box;}
+a{
+    text-decoration:none;
+    :active{
+        color: #000;
+    }
+}
+li{
+    list-style: none;
+}
+
+header{
+    display: flex;
+    border-bottom: solid 1px #000;
+    padding: 20px;
+
+    nav{
+        margin-left: auto;
+
+        ul{
+            display: flex;
+            gap: 10px;
+        }
+    }
+  }
+
+  main{
+    padding: 60px 20px;
+  }
